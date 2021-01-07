@@ -1,5 +1,5 @@
-# Invalid-address-access-in-XPDF
-A invalid address access in XPDF
+# Invalid-address-access-in-XPDF 
+A invalid address access in XPDF-4.02
 
 We met a segmentation fault when using pdfimages.
 According to the information from gdb, we find that there is a invalid address access in PageLabelNode::~PageLabelNode, in Catalog.cc, in XPDF 4.02.
